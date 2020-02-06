@@ -1,0 +1,36 @@
+.notification {
+  margin-bottom: 2px;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.notification .avatar {
+  margin-right: 20px;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.notification-details {
+  flex-grow: 1;
+}
+
+.notification .date {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #999;
+}
+
+.notification .action {
+  font-size: 0.9em;
+  opacity: 0;
+  margin-right: 10px;
+  transition: opacity 200ms ease;
+}
+
+.notification:hover .action {
+  opacity: 0.6;
+}
